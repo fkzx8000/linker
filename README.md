@@ -11,6 +11,8 @@ readelf ./test -a | less
 
 sudo apt install hexedit
 
+hexedit test
+
 gcc --shared -fPIC SOL.c -o ibc.so.6 -ldl
 
 ./test
