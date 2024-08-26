@@ -1,5 +1,6 @@
 # linker
 ##commands
+
 gcc test.c -o test -ldl
 gcc --shared -fPIC aes.c -o aes.so
 export LD_LIBRARY_PATH="."
