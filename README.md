@@ -1,5 +1,5 @@
 # linker
-##commands
+## commands
 
 gcc test.c -o test -ldl
 
